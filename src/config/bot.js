@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "MADE FOR THE OG", // required by Discord API, not shown in the client
         state: "MADE FOR THE OG",     // this is what people actually see
-        type: 1,               // Custom
+        type: 4,               // Custom
       },
     ],
   },
