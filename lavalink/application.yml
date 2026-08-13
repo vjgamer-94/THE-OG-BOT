@@ -27,6 +27,13 @@ lavalink:
       http: true
       local: true
       nico: true
+     ratelimit:
+      ipBlocks:
+        - "2001:db8::/32" # Replace with your server's IPv6 block
+      strategy: "LoadBalance" # Options: RotateOnBan, LoadBalance, NanoSwitch
+      searchTriggersFail: true
+      retryLimit: -1
+      
     filters:
       volume: true
       equalizer: true
